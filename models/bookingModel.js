@@ -5,13 +5,12 @@ const bookingSchema = mongoose.Schema(
       type: String,
       required: [true, "Please enter guest name."],
     },
-    contactNumberPrimary:{
+    primaryContact:{
         type:Number,
         required:true,
     },
-    contactNumberSecondary:{
+    secondaryContact:{
         type:Number,
-        required:true,
     },
     dob:{
         type: Date,
